@@ -1,0 +1,51 @@
+body{
+	background:	#227;
+	margin: 0;
+}
+
+header{
+	background: #159;
+	color: white;
+	padding: 5px 10px;	
+}
+
+header h1{
+	margin: 0;
+	display: inline;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0 0 0 15px;
+	display: inline;
+}
+
+nav ul li{
+	background: #116;
+	border-radius: 5px;
+	color: white;
+	display: inline-block;
+	list-style-type: none;
+	padding: 5px 15px;
+}
+
+nav ul li a{
+	color: white;
+}
+
+.row{
+	clear: both; /*Clears all the float parameters from previous selectors*/
+}
+
+.col{
+	background: #158;
+	float: left;
+	border-radius: 5px; /*Rounded corners*/
+	color: white;
+	padding: 10px 0.5%;
+	margin: 0.5%;
+	width: 31%;
+}
+footer{
+	clear: both;
+}

@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+	<head>
+		<title>My Website</title>
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<body>
+		<header>
+			<nav>
+			<h1>Tevs</h1>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Projects</a></li>
+				<li><a href="#">Records</a></li>				
+				<li><a href="#">About me</a></li>
+				<li><a href="#">Socials</a></li>
+			</ul>
+			<nav>
+		</header>
+		<div class="row">
+			<div class="col1">col1</div>
+			<div class="col2">col2</div>
+			<div class="col3">col3</div>
+		</div>
+		<footer>©2022 Tejal V Shetty</footer>
+	</body>
+</html>
