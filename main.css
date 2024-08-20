@@ -183,8 +183,9 @@ header h1{
 
 .socialsFeatures{
 	display:flex;
-	flex-direction: row;
 	flex-wrap: wrap;
+	gap:10px;
+	justify-content: center;
 }
 
 .features figure{
@@ -210,6 +211,7 @@ header h1{
 	color:rgb(234, 245, 255);
 }
 
+
 /* Project Content */
 .projectContent{
 	display: block;
@@ -225,6 +227,19 @@ header h1{
 	margin:5px;
 	color: #b3b3b3;
 	font-size: 20px;
+	text-align: center;
+}
+
+.blenderShowcase{
+	display: flex;
+	flex-wrap: wrap;
+	gap:10px;
+	justify-content: center;
+}
+
+.repoLink{
+	color: white;
+	text-decoration: none;
 	text-align: center;
 }
 
