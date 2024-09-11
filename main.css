@@ -9,7 +9,7 @@ body{
 	background-blend-mode: lighten;
 	background-attachment: fixed;
 	color: white;
-	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	margin: 0;
 }
 
@@ -107,7 +107,7 @@ header h1{
 .headertxt{
 	display: inline-block;
 	font-size:40px;
-	text-decoration: underline;
+	/* text-decoration: underline; */
 	padding: 1%;
 	text-align: left;
 }
@@ -127,13 +127,14 @@ header h1{
 
 .displayItem{
 	color: white;
+	filter:brightness(100%) ;
 }
 
 .displayShelf h1{
 	display: inline-block;
 	font-size:40px;
 	text-align: left;
-	text-decoration: underline;
+	/* text-decoration: underline; */
 }
 
 .displayImageLink{
