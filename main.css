@@ -100,14 +100,13 @@ header h1{
 /* Header content */
 
 .frontPageHeaderContent{
-	background-color:rgba(5, 8, 13, 0.8);
+	background-color:rgba(5, 8, 13, 0.9);
 	padding: 10% 5% 10% 5%;
 }
 
 .headertxt{
 	display: inline-block;
 	font-size:40px;
-	/* text-decoration: underline; */
 	padding: 1%;
 	text-align: left;
 }
@@ -123,25 +122,49 @@ header h1{
 
 .displayShelf{
 	background-color:rgba(5, 8, 13, 0.9);
+	text-align: center;
 }
 
 .displayItem{
 	color: white;
 	filter:brightness(100%) ;
+	/* padding: 2%; */
+	/* border: solid rgba(255, 255, 255, 0.4); */
 }
 
 .displayShelf h1{
-	display: inline-block;
+	font-size:70px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.displayShelf h2{
 	font-size:40px;
-	text-align: left;
-	/* text-decoration: underline; */
+	text-align: center;
+	align-items: center;
+	text-transform: uppercase;
+}
+
+@media only screen and (max-width: 700px) {
+	.displayShelf h1{
+		font-size:50px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.displayShelf h2{
+		font-size:30px;
+		text-align: center;
+		align-items: center;
+		text-transform: uppercase;
+	}
 }
 
 .displayImageLink{
 	background-color: rgba(0,0,0,0);
 	color: white;
 	display: inline-block;
-	filter: brightness(50%);
+	filter: brightness(60%);
 	position: relative;
 	text-decoration: none;
 	text-align: center;
@@ -167,7 +190,7 @@ header h1{
 @media only screen and (max-width: 800px) {
 	.displayImageIcon{
 		width: 80vw;
-		height: 33vh;
+		height: 30vh;
 	}
 }
 .displayImageText{
@@ -246,6 +269,32 @@ header h1{
 	display: block;
 	width: 1080px;
 	margin: 0 auto;
+}
+@media only screen and (max-width: 700px) {
+	.contentImage{
+		display: block;
+		width: 540px;
+		margin: 0 auto;
+	}
+}
+
+.contentDoc{
+	display: block;
+	width: 1080px;
+	height: 1380px;
+	margin: 0 auto;
+}
+@media only screen and (max-width: 1250px) {
+	.contentDoc{
+		width: 580px;
+		height: 840px;
+	}
+}
+@media only screen and (max-width: 700px) {
+	.contentDoc{
+		width: 380px;
+		height: 540px;
+	}
 }
 
 .contentImageText{
