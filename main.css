@@ -128,8 +128,6 @@ header h1{
 .displayItem{
 	color: white;
 	filter:brightness(100%) ;
-	/* padding: 2%; */
-	/* border: solid rgba(255, 255, 255, 0.4); */
 }
 
 .displayShelf h1{
@@ -304,7 +302,16 @@ header h1{
 	text-align: center;
 }
 
+.displayProject{
+	border: solid rgba(123, 240, 255, 0.2);
+	border-radius: 2px;
+	padding: 2%;
+}
+
 .blenderShowcase{
+	border: solid rgba(123, 240, 255, 0.2);
+	border-radius: 2px;
+	padding: 2%;
 	display: flex;
 	flex-wrap: wrap;
 	gap:10px;
